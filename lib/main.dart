@@ -1,8 +1,14 @@
+import 'package:dino/dino_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'package:dino/info.dart';
+import 'package:dino/dino_service.dart';
 
-void main() => runApp(MyApp());
+main() async => {
+      runApp(
+        MyApp(),
+      )
+    };
 
 class MyApp extends StatelessWidget {
   @override
@@ -19,31 +25,30 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List<String> items = [
-    "Apple",
-    "Armidillo",
-    "Actual",
-    "Actuary",
-    "America",
-    "Argentina",
-    "Australia",
-    "Antarctica",
-    "Blueberry",
-    "Cheese",
-    "Apple",
-    "Armidillo",
-    "Actual",
-    "Actuary",
-    "America",
-    "Argentina",
-    "Australia",
-    "Antarctica",
-    "Blueberry",
-    "Cheese"
-  ];
+  List<String> _items = [];
+  DinoList _dinoList;
+
+  @override
+  void initState() {
+    super.initState();
+    List<String> dinoNames = [];
+    loadDinos().then((dinoList) {
+      dinoList.dinos.forEach((d) => {
+            dinoNames.add(d.name),
+          });
+      setState(() {
+        print("set state");
+        _dinoList = dinoList;
+        _items = dinoNames;
+      });
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
+    if (_dinoList == null) {
+      return new Container();
+    }
     return MaterialApp(
       home: Scaffold(
         body: new Stack(children: <Widget>[
@@ -66,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       hintText: 'Enter a Dinosaurs Name'),
                 ),
                 suggestionsCallback: (String pattern) async {
-                  return items
+                  return _items
                       .where((item) =>
                           item.toLowerCase().startsWith(pattern.toLowerCase()))
                       .toList();
@@ -77,9 +82,20 @@ class _HomeScreenState extends State<HomeScreen> {
                   );
                 },
                 onSuggestionSelected: (String dinoName) {
+                  var retDino;
+
+                  for (var dino in _dinoList.dinos) {
+                    if (dino.name == dinoName) {
+                      retDino = dino;
+                      break;
+                    }
+                  }
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => InfoScreen(dinoName: dinoName,)),
+                    MaterialPageRoute(
+                        builder: (context) => InfoScreen(
+                              dino: retDino,
+                            )),
                   );
                 },
               ),
