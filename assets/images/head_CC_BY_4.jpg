@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+<head>
+<title>Dinosaurier und die Welt des Mesozoikum - Dinodata</title>
+<meta name="description" content="Dinosaurier, Pterosaurier und Vogelarten des Mesozoikum - Dinodata">
+<meta name="keywords" content="Dinosaurier,Dinosaurierarten,Dinodata,Dinosaurs,2018,Jura,Jurassic,Kreidezeit,Cretaceous,Mesozoikum,Trias,Triassic">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="google-site-verification" content="_bS3Fyrh9eQEDnQK84zg8Z4jsXAV8EC9aZhaCa_HED8" />
+<meta name="msvalidate.01" content="C12A9085AB83266D746A89EBF2FF45DA" />
+<meta name="language" content="deutschland">
+<meta name="copyright" content="Uwe Jelting">
+<meta name="abstract" content="Dinosaurier">
+<meta name="author" content="Uwe Jelting">
+<meta name="rating" content="general">
+<meta name="audience" content="All">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="robots" content="INDEX,FOLLOW">
+<link rel="shortcut icon" href="dinodata.ico">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all">
+<style type="text/css">
+a:hover {
+	color: #797979;
+}
+a:active {
+	color: #797979;
+}
+</style>
+<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+		<script src="js/modernizr.custom.js"></script>
+	<![endif]-->
+<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+<script src="js/functions.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('images/layout/button_back_s2.png')">
+<!-- wraper -->
+<div id="wrapper"> 
+<!-- shell -->
+<div class="shell"> 
+<!-- container -->
+<div class="container">
+<p><a name="top"></a><a href="index.php"><img src="images/dinodata-logo.png" alt="Dinosaurier auf Dinodata.de" title="Dinodata.de"></a></p>
+<!-- navigation -->
+<nav id="navigation"> <a href="#" class="nav-btn">MENUE<span class="arr"></span></a>
+<ul>
+<li><a href="#"></a></li>
+<li><a href="animals/index.php">Arten</a></li>
+<li><a href="art/index.php">Galerie</a></li>
+<li><a href="wissen/index.php">Wissen</a></li>
+<li><a href="mesozoikum/index.php">Mesozoikum</a></li>
+<li><a href="lexikon/index.php">Lexikon</a></li>
+<li><a href="fundort/index.php">Fundorte</a></li>
+<li><a href="dinothek/d_dinothek.php">Dinothek</a></li>
+<li><a href="ueber.php">&Uuml;ber uns</a></li>
+</ul>
+</nav>
+<!-- end of navigation --> 
+<!-- main -->
+<div class="main">
+<section class="post">
+<div class="video-holder">
+<form method="get" action="http://www.dinodata.de/search/search.php">
+<input name="q" type="text" size="40" />
+<input type="submit" value="Suche" />
+</form>
+</p>
+<p>&nbsp;</p>
+<p><a href="javascript:history.back()"><img src="images/layout/button_back_s1.png"  alt="zur&uuml;ck" id="back" onMouseOver="MM_swapImage('back','','images/layout/button_back_s2.png',1)" onMouseOut="MM_swapImgRestore()" border="0"/></a></p>
+<p>&nbsp;</p>
+</div>
+<div class="post-cnt">
+<p><b>Willkommen auf Dinodata.de</b><br>
+Artenverzeichnis, Beschreibungen und Daten von Dinosauriern, Pterosauriern und frühen Vögeln.<br>
+Aktualisierung: 20. März 2019</p>
+<p>&nbsp;</p>
+<p><b>Neue Beschreibung</b>: <a href="animals/pterosaurs/pages_k/klobiodon.php"><b>Klobiodon</b> rochei</a></p>
+<p>&nbsp;</p>
+<p><img src="images/pointline_500.png" alt=""/></p>
+<p>&nbsp;</p>
+<p>Auf Dinodata.de finden Sie ein Artenverzeichnis mit Beschreibungen aller <a href="animals/index.php">Dinosaurier-Arten</a> sowie der <a href="animals/pterosaurs/index.php">Pterosaurier</a> und der mesozoischen <a href="animals/birds/index.php">V&ouml;gel</a>. Dar&uuml;ber hinaus gibt es ein <a href="lexikon/index.php">Lexikon</a> mit Fachbegriffen und den gro&szlig;en <a href="wissen/index.php">Wissensbereich</a> mit weiterf&uuml;hrenden Informationen und Dokumenten, au&szlig;erdem sind einige der bekanntesten <a href="fundort/index.php">Fundorte</a> beschrieben.</p>
+<p>In der <a href="dinothek/d_dinothek.php">Dinothek</a> befindet sich eine große Auswahl mit Links zu wissenschaftlichen Abhandlungen, diese Rubrik wächst monatlich. Das <a href="mesozoikum/index.php">Mesozoikum</a> beschreibt die Zeitalter, in der unter anderem die Dinosaurier lebten. Diese Seite ist aber nur halb so interessant, w&auml;re da nicht die Unterst&uuml;tzung durch die vielen <a href="art/index.php">Grafiker und Zeichner</a>, die ihre Illustrationen Dinodata.de zur Verf&uuml;gung gestellt haben. Vielen Dank.</p>
+<p>&nbsp;</p>
+<p><a href="https://twitter.com/dinodata_uj" target="_blank"><img src="images/twitter-icon.png" alt="" width="25" height="25"/> Dinodata auf Twitter</a><br>
+</p>
+<p>&nbsp;</p>
+<a href="http://onlinestreet.de/194972-die-welt-der-dinosaurier" target="blank"><img src="images/siegel_onlinestreet.png" alt="Dinodata: Ausgewählte Webseite im Branchenbuch auf onlinestreet.de" title="Dinosaurier auf Dinodata.de: Ausgewählte Webseite im Branchenbuch auf onlinestreet.de" border="0" /> </a><a href="https://freesitemapgenerator.com/"><img
+ border="0" alt="Free Sitemap Generator"
+ style="border:0; margin:3px 3px 3px 3px; padding:0"
+ src="images/fsgbig1.gif"></a>
+<script
+ language="javascript">
+/* FSG 0.96 script */ 
+var fsg_Live_date_package_version='0.96';
+var fsg_image = 'big';
+var fsg_serial = 'f8d8bc334c8beaeafdf02fbeb2117321';
+</script>
+<script language="javascript"
+ src="https://live.freesitemapgenerator.com/scripts/fsg096.js"></script>
+</div>
+<div class="cl">&nbsp;</div>
+</section>
+</div>
+<!-- end of main -->
+<div id="footer"><!-- end of footer-cols -->
+<div class="footer-bottom">
+<nav class="footer-nav">
+<ul>
+<li class="active"><a href="index.php">Startseite</a></a></li>
+<li><a href="kontakt.php">Kontakt</a></li>
+<li><a href="datenschutz.php">Datenschutz</a></li>
+<li><a href="impressum.php">Impressum</a></li>
+
+</ul>
+</nav>
+<p class="copy">&copy; Copyright 2019 Dinodata.de</p>
+<div class="cl">&nbsp;</div>
+</div>
+</div>
+</div>
+<!-- end of container --> 
+</div>
+<!-- end of shell --> 
+</div>
+<!-- end of wrapper -->
+</body>
+</html>
