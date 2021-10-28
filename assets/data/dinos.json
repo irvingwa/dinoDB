@@ -1,14 +1,6 @@
 {
   "dinos": [
-    {
-      "images": [
-        "assets/images/aardonyx_by_elperdido1965-d3lh9x4.jpg",
-        "assets/images/aardonyx-julius-csotonyi.jpg",
-        "assets/images/Aardonyx_celestae_by_karkemish00.jpg"
-      ],
-      "name": "Aardonyx",
-      "description": "Aardonyx was a herbivore. It lived in the Jurassic period and inhabited Africa. Its fossils have been found in places such as Free State (RSA). The Aardonyx is a Prosauropod; a bipedal dinosaur that predates the emergence of the quadruped sauropods, but nevertheless could walk on all four legs when it was suitable. The Aardonyx had a thick, barrel chest, a long, slender neck and a small head. It balanced primarily on its hind legs but had good articulation in its forelegs, using them to support itself and aid in movement whenever it was beneficial. Researchers believe that Aardonyx represents a crucial transition from bipedal movement to quadrupedal movement that would eventually beget the many genera of the sauropod family including the Apatosaurus, Brachiosaurus, and Diplodocus, to name just a few."
-    },
+
     {
       "images": [
         "assets/images/dinosaurier_abelisaurus.jpg",
